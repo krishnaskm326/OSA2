@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="9" passed="0" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-06T12:54:22 IST" name="Suite" finished-at="2023-04-06T12:54:22 IST" duration-ms="175">
+    <groups>
+    </groups>
+    <test started-at="2023-04-06T12:54:22 IST" name="Test" finished-at="2023-04-06T12:54:22 IST" duration-ms="175">
+      <class name="testMethods.User_TC">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="connectToDB" finished-at="2023-04-06T12:54:22 IST" duration-ms="57" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+at com.mysql.cj.conf.ConnectionUrlParser.<init>(ConnectionUrlParser.java:137)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDB -->
+        <test-method is-config="true" signature="openTheBrowser()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="openTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862284" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method is-config="true" signature="userLogin()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="userLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862303" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="checkOut()[pri:1, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="checkOut" finished-at="2023-04-06T12:54:22 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+at com.mysql.cj.conf.ConnectionUrlParser.<init>(ConnectionUrlParser.java:137)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOut -->
+        <test-method is-config="true" signature="userLogout()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="userLogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862312" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="userLogin()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="userLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862318" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="wishList()[pri:2, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="wishList" finished-at="2023-04-06T12:54:22 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+at com.mysql.cj.conf.ConnectionUrlParser.<init>(ConnectionUrlParser.java:137)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishList -->
+        <test-method is-config="true" signature="userLogout()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="userLogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862323" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="userLogin()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="userLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862328" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="wishListToAddToCart()[pri:3, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="wishListToAddToCart" finished-at="2023-04-06T12:54:22 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+at com.mysql.cj.conf.ConnectionUrlParser.<init>(ConnectionUrlParser.java:137)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListToAddToCart -->
+        <test-method is-config="true" signature="userLogout()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="userLogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862338" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862343" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+        <test-method is-config="true" signature="closeDbConnection()[pri:0, instance:testMethods.User_TC@58d75e99]" started-at="2023-04-06T12:54:22 IST" name="closeDbConnection" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862572" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDbConnection -->
+      </class> <!-- testMethods.User_TC -->
+      <class name="testMethods.User_TC2">
+        <test-method is-config="true" signature="openTheBrowser()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="openTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862345" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method is-config="true" signature="userLogin()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="userLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862348" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="searchProduct()[pri:4, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="searchProduct" finished-at="2023-04-06T12:54:22 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+at com.mysql.cj.conf.ConnectionUrlParser.<init>(ConnectionUrlParser.java:137)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="userLogout()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="userLogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862356" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="userLogin()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="userLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862363" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="product()[pri:5, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="product" finished-at="2023-04-06T12:54:22 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+at com.mysql.cj.conf.ConnectionUrlParser.<init>(ConnectionUrlParser.java:137)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+        <test-method is-config="true" signature="userLogout()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="userLogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862381" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="userLogin()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="userLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862386" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="updateShipBillAddress()[pri:6, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="updateShipBillAddress" finished-at="2023-04-06T12:54:22 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+at com.mysql.cj.conf.ConnectionUrlParser.<init>(ConnectionUrlParser.java:137)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateShipBillAddress -->
+        <test-method is-config="true" signature="userLogout()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="userLogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862409" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="userLogin()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="userLogin" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862413" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method signature="payment()[pri:7, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="payment" finished-at="2023-04-06T12:54:22 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+at com.mysql.cj.conf.ConnectionUrlParser.<init>(ConnectionUrlParser.java:137)
+at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method is-config="true" signature="userLogout()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="userLogout" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862424" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogout -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:testMethods.User_TC2@e15b7e8]" started-at="2023-04-06T12:54:22 IST" name="closeTheBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1680765862427" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- testMethods.User_TC2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

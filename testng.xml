@@ -1,0 +1,8 @@
+
+<suite thread-count="7" parallel="methods" name="Suite">
+  <test thread-count="7" parallel="methods" name="Test">
+    <classes>
+      <class name="testMethods.User_TC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

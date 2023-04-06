@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num attn">7</td><td class="num">0</td><td class="num">0</td><td class="num">175</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">testMethods.User_TC</td><td><a href="#m0">connectToDB</a></td><td rowspan="1">1680765862184</td><td rowspan="1">57</td></tr><tr><th colspan="4">Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="9">testMethods.User_TC</td><td><a href="#m1">closeDbConnection</a></td><td rowspan="1">1680765862572</td><td rowspan="1">-1680765862572</td></tr><tr class="skippedeven"><td><a href="#m2">closeTheBrowser</a></td><td rowspan="1">1680765862343</td><td rowspan="1">-1680765862343</td></tr><tr class="skippedeven"><td><a href="#m3">openTheBrowser</a></td><td rowspan="1">1680765862284</td><td rowspan="1">-1680765862284</td></tr><tr class="skippedeven"><td><a href="#m4">userLogin</a></td><td rowspan="3">1680765862328</td><td rowspan="3">-1680765862328</td></tr><tr class="skippedeven"><td><a href="#m5">userLogin</a></td></tr><tr class="skippedeven"><td><a href="#m6">userLogin</a></td></tr><tr class="skippedeven"><td><a href="#m7">userLogout</a></td><td rowspan="3">1680765862312</td><td rowspan="3">-1680765862312</td></tr><tr class="skippedeven"><td><a href="#m8">userLogout</a></td></tr><tr class="skippedeven"><td><a href="#m9">userLogout</a></td></tr><tr class="skippedodd"><td rowspan="10">testMethods.User_TC2</td><td><a href="#m10">closeTheBrowser</a></td><td rowspan="1">1680765862427</td><td rowspan="1">-1680765862427</td></tr><tr class="skippedodd"><td><a href="#m11">openTheBrowser</a></td><td rowspan="1">1680765862345</td><td rowspan="1">-1680765862345</td></tr><tr class="skippedodd"><td><a href="#m12">userLogin</a></td><td rowspan="4">1680765862363</td><td rowspan="4">-1680765862363</td></tr><tr class="skippedodd"><td><a href="#m13">userLogin</a></td></tr><tr class="skippedodd"><td><a href="#m14">userLogin</a></td></tr><tr class="skippedodd"><td><a href="#m15">userLogin</a></td></tr><tr class="skippedodd"><td><a href="#m16">userLogout</a></td><td rowspan="4">1680765862424</td><td rowspan="4">-1680765862424</td></tr><tr class="skippedodd"><td><a href="#m17">userLogout</a></td></tr><tr class="skippedodd"><td><a href="#m18">userLogout</a></td></tr><tr class="skippedodd"><td><a href="#m19">userLogout</a></td></tr><tr><th colspan="4">Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="3">testMethods.User_TC</td><td><a href="#m20">checkOut</a></td><td rowspan="1">1680765862306</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m21">wishList</a></td><td rowspan="1">1680765862319</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m22">wishListToAddToCart</a></td><td rowspan="1">1680765862334</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="4">testMethods.User_TC2</td><td><a href="#m23">payment</a></td><td rowspan="1">1680765862415</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m24">product</a></td><td rowspan="1">1680765862368</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m25">searchProduct</a></td><td rowspan="1">1680765862349</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td><a href="#m26">updateShipBillAddress</a></td><td rowspan="1">1680765862392</td><td rowspan="1">0</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testMethods.User_TC#connectToDB</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: &quot;&quot;,&quot;
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+	at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+	at com.mysql.cj.conf.ConnectionUrlParser.&lt;init&gt;(ConnectionUrlParser.java:137)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+	at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testMethods.User_TC#closeDbConnection</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testMethods.User_TC#closeTheBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testMethods.User_TC#openTheBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testMethods.User_TC#userLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testMethods.User_TC#userLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testMethods.User_TC#userLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testMethods.User_TC#userLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testMethods.User_TC#userLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testMethods.User_TC#userLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testMethods.User_TC2#closeTheBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testMethods.User_TC2#openTheBrowser</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testMethods.User_TC2#userLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testMethods.User_TC2#userLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testMethods.User_TC2#userLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testMethods.User_TC2#userLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testMethods.User_TC2#userLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testMethods.User_TC2#userLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">testMethods.User_TC2#userLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">testMethods.User_TC2#userLogout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">testMethods.User_TC#checkOut</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: &quot;&quot;,&quot;
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+	at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+	at com.mysql.cj.conf.ConnectionUrlParser.&lt;init&gt;(ConnectionUrlParser.java:137)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+	at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">testMethods.User_TC#wishList</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: &quot;&quot;,&quot;
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+	at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+	at com.mysql.cj.conf.ConnectionUrlParser.&lt;init&gt;(ConnectionUrlParser.java:137)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+	at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">testMethods.User_TC#wishListToAddToCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: &quot;&quot;,&quot;
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+	at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+	at com.mysql.cj.conf.ConnectionUrlParser.&lt;init&gt;(ConnectionUrlParser.java:137)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+	at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">testMethods.User_TC2#payment</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: &quot;&quot;,&quot;
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+	at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+	at com.mysql.cj.conf.ConnectionUrlParser.&lt;init&gt;(ConnectionUrlParser.java:137)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+	at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">testMethods.User_TC2#product</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: &quot;&quot;,&quot;
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+	at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+	at com.mysql.cj.conf.ConnectionUrlParser.&lt;init&gt;(ConnectionUrlParser.java:137)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+	at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m25">testMethods.User_TC2#searchProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: &quot;&quot;,&quot;
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+	at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+	at com.mysql.cj.conf.ConnectionUrlParser.&lt;init&gt;(ConnectionUrlParser.java:137)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+	at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m26">testMethods.User_TC2#updateShipBillAddress</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: &quot;&quot;,&quot;
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:237)
+	at java.base/java.net.URLDecoder.decode(URLDecoder.java:147)
+	at com.mysql.cj.conf.ConnectionUrlParser.decode(ConnectionUrlParser.java:569)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:167)
+	at com.mysql.cj.conf.ConnectionUrlParser.&lt;init&gt;(ConnectionUrlParser.java:137)
+	at com.mysql.cj.conf.ConnectionUrlParser.parseConnectionString(ConnectionUrlParser.java:119)
+	at com.mysql.cj.conf.ConnectionUrl.getConnectionUrlInstance(ConnectionUrl.java:279)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:195)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at com.GenericUtilities.DatabaseUtility.connectToDb(DatabaseUtility.java:14)
+	at com.GenericUtilities.BaseClass.connectToDB(BaseClass.java:31)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
